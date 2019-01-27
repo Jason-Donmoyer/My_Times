@@ -1,6 +1,11 @@
 
+body {
+    font-family: Georgia, serif;
+    color: #000;
+    font-size: 17px;
+}
 
-
+/**************** HEADER ***************/
 
 
 #main-header {
@@ -42,4 +47,101 @@
 }
 .nav-item>a {
     color: #000;
+}
+
+/**************** MAIN CONTENT ***************/
+
+div {
+    border: 1px solid  #000;
+    /* display: block; */
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    margin: 0 auto 78px auto;
+    padding-top: 116px;
+}
+
+.column {
+    display: flex; 
+    flex-direction: column;
+    margin-right: 32px;
+}
+
+.column.large {
+    width: 630px;
+}
+
+.lead-story .image-content {
+    background-image: url('../images/img-story-main.png');
+    width: 630px;
+    margin-top: 40px;
+    font-size: 40px;
+    text-align: left;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.lead-story .image-content span {
+    margin-left: 20px;
+}
+
+.image-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    margin-top: 15px;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.fall-cancelled.image-content {
+    background-image: url('../images/img-story-2.png');
+}
+
+.pop-culture.image-content {
+    background-image: url('../images/img-story-3.png');
+}
+
+.narrative {
+    margin-top: 16px;
+}
+
+.stories {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+
+.stories .text-content {
+    height: 250px;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.column.medium {
+    width: 300px;
+}
+
+.column.small {
+    width: 240px;
 }
